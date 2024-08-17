@@ -1,0 +1,260 @@
+.nav-css-1{
+    background-color: #ffffff !important;
+}
+.html-icon{
+font-size: 1.5rem;
+    color: black;
+   
+}
+.gem-html-icon{
+    font-size: 1.5rem;
+    color: black;
+   
+}
+.profile{
+    border: 1px solid #ccc;
+    padding: 7px;
+    border-radius: 25px;
+    width: 70px;
+}
+.header-para{
+    font-family: sans-serif;
+    font-size: 20px;
+    color:gray !important;
+    font-weight: 200;
+}
+
+.main-div{
+    background-image: url("https://res.cloudinary.com/dtvqmmc3d/image/upload/v1723867121/pexels-pixabay-161820_reudy2.jpg");
+background-size: cover;
+min-height: 93vh;
+padding-top: 50px;
+}
+.main-heading{
+    font-family: "roboto";
+    font-weight: 700;
+    margin-left: 50px;
+    color: #ffffff;
+}
+.main-para{
+    font-family: "roboto";
+    margin-left: 50px;
+    font-weight: 400;
+    color: #ffffff;
+}
+.sub-main{
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin-left: 50px;
+    padding: 10px;
+    width: 90vw;
+    padding-left: 30px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+.button{
+    background-color: #000000;
+    color: #ffffff;
+    font-family: "roboto";
+    border-radius: 15px;
+    width: 100px;
+    padding: 9px;
+    outline: none;
+    margin-right: 20px;
+    cursor: pointer;
+    border-style: none;
+    font-size: 20px;
+}
+.button-2{
+    background-color:transparent;
+    color: grey;
+    font-family: "roboto";
+    outline: none;
+    margin-right: 20px;
+    font-weight: 500;
+    font-size: 20px;
+}
+.input-container-1{
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    width: 200px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+.label-element{
+    color:gray;
+    font-family: "roboto";
+    font-weight: 400;
+    
+}
+
+.label-element-3{
+    color:gray;
+    
+    
+}
+.destination-input{
+    border-style: none;
+    outline: none;
+    margin-top: -7px;
+    
+}
+.form-element{
+    width: 90%;
+    margin-top: 15px;
+    margin-bottom: 35px;
+    margin-top: 25px;
+}
+.input-container-2{
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    width: 450px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+.date-input-1{
+    width: 150px;
+    border-style: none;
+    outline: none;
+    margin-top: -7px;
+    color: gray;
+
+}
+.no{
+    font-size: 10px;
+}
+.search-conatiner{
+    background-color:#000000;
+    border-radius: 15px;
+    padding-left: 10px;
+    height: 70px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.search-icon{
+    color: #ffffff;   
+    margin-right: 10px;
+}
+.dropdown-element{
+    background-color: transparent;
+margin-top: -5px;
+}
+.input-container-3{
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    width: 250px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+.select-element{
+    border-style: none;
+    width: 100%;
+    color: gray;
+}
+.rating-para{
+    font-family: "roboto";
+    padding-right: 10px;
+}
+.one-star{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  background-color: #000000;
+  color: #ffffff;
+  height: 040px;
+  border-radius: 5px;
+}
+.star-icon{
+    color: #ffffff;
+    margin-left: 5px;
+}
+.star-icon-3{
+    color: gray;
+    margin-left: 5px;
+}
+.ss{
+    display: flex;
+    align-items: center;
+}
+
+.para{
+    margin-top: 15px;
+    font-family: "roboto";
+}
+.para-3{
+    margin-top: 15px;
+    color: gray;
+    font-family: "roboto";
+}
+.three-star{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    color: #000000;
+    background-color:lightgray;
+    height: 040px;
+    border-radius: 5px;
+}
+.title-one{
+    font-family: sans-serif;
+    font-size: 30px;
+    color: lightgreen !important;
+    margin-left: -4px;
+    font-weight: 700;
+}
+.title-two{
+    font-family: sans-serif;
+    font-size: 30px;
+    color: lightseagreen !important;
+    margin-left: -4px;
+    font-weight: 700;
+}
+@media screen and (max-width:768px){
+    .form-element{
+        display: flex;
+        flex-direction: column;
+    }
+    .main-heading{
+        margin-left: 15px;
+    }
+    .sub-main{
+        margin-left: 15px;
+    }
+    .main-para{
+        margin-left: 15px;
+    }
+    .input-container-1{
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .input-container-2{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .moon-container{
+        margin-top: 20px;
+        margin-bottom: 0px;
+    }
+    .input-container-3{
+        width: 100%;
+        margin-bottom: 25px;
+    }
+    .search-conatiner{
+        width: 60px;
+        align-self: center;
+    }
+    .button{
+        font-size: 16px;
+    }
+    .button-2{
+        font-size: 16px;
+    }
+
+}
